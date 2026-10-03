@@ -1,0 +1,23 @@
+/* Hero Container with Background Image */
+.hero-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
+              url('/beach-hero.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Main Heading */
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff; /* Contrast against dark image overlay */
+  margin-bottom: 12px;
+}
+
+/* Subtitle Text */
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
